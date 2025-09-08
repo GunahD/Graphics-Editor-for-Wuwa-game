@@ -51,7 +51,7 @@ class IniEditorApp(QWidget):
 
         icon_path = os.path.join(bundle_dir, 'appicon.ico')
         self.setWindowIcon(QIcon(icon_path))
-        self.setGeometry(100, 100, 650, 450)
+        self.setGeometry(100, 100, 650, 210)
         
 
         main_layout = QVBoxLayout()
