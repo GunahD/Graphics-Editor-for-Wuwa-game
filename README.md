@@ -7,6 +7,14 @@
 With Simple GUI<br>
 Do you want to contribute? Come its open source<br>
 
+# Main Feature
+- [ ] Detect game path Automatically
+- [ ] Backup the Engine.ini setting
+- [x] Can Uncap 60 FPS
+- [x] Can Modify game resolution
+- [x] Set Distance scale Object
+- [x] Disable/Enable shadow
+
 # How To Use
 
 - Download from [Release](https://github.com/GunahD/Graphics-Editor-for-Wuwa-game/releases) tab
