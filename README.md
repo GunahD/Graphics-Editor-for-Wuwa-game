@@ -1,5 +1,5 @@
 <div align="center">
-<img src="seia33.jpg" alt="seia33" width="200"/>
+<img src="appicon.ico" alt="appicon" width="200"/>
 <h1>Simple Tool Graphics Editor for anime games</h1>
 </div>
 
