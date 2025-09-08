@@ -43,7 +43,7 @@ class IniEditorApp(QWidget):
         self.ini_file_path = ''
 
     def initUI(self):
-        self.setWindowTitle('Graphics Editor for Wuthering Waves V0.5')
+        self.setWindowTitle('Graphics Editor for Wuthering Waves V0.7')
         self.setWindowIcon(QIcon('appicon.ico'))
         if getattr(sys, 'frozen', False) and hasattr(sys, '_MEIPASS'):
             bundle_dir = sys._MEIPASS
