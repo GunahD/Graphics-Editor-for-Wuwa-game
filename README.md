@@ -6,3 +6,7 @@
 # Tweak Graphics
 With Simple GUI<br>
 Do you want to contribute? Come its open source<br>
+
+# How To Use
+
+- Download from 
