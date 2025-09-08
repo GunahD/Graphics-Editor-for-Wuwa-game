@@ -1,6 +1,7 @@
 import sys
 import os
 import stat
+import shutil
 from PyQt5.QtGui import QIcon
 from PyQt5.QtWidgets import (QApplication, QWidget, QVBoxLayout,
                              QHBoxLayout, QLabel, QLineEdit,
@@ -119,6 +120,26 @@ class IniEditorApp(QWidget):
     def update_ini_file(self):
         if not self.ini_file_path:
             QMessageBox.warning(self, 'Warning', 'Please select the Engine.ini file.')
+            return
+
+        key_to_update = self.setting_combo.currentText()
+        new_value = self.value_input.text().strip()
+          
+        try:
+            ini_dir = os.path.dirname(self.ini_file_path)
+            backup_dir = os.path.join(ini_dir, 'backup')
+            
+            if not os.path.exists(backup_dir):
+                os.makedirs(backup_dir)
+            
+            
+            backup_filename = 'Engine_backup.ini'
+            backup_path = os.path.join(backup_dir, backup_filename)
+            
+            shutil.copyfile(self.ini_file_path, backup_path)
+            QMessageBox.information(self, 'Backup Created', f'A backup of the file has been created at:\n{backup_path}\nPrevious backup was overwritten.')
+        except Exception as e:
+            QMessageBox.critical(self, 'Backup Error', f'Failed to create backup: {e}')
             return
 
         key_to_update = self.setting_combo.currentText()
