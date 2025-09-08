@@ -21,3 +21,5 @@ Requierement
 # How to Run
 - Clone this https://github.com/GunahD/Graphics-Editor-for-Wuwa-game.git
 - Use pyinstaller --onefile --windowed --add-data "appicon.ico;." --icon="appicon.ico" phoebeeditor.py
+
+oh yeah use it at own risk!
