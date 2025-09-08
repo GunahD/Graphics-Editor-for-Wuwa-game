@@ -20,7 +20,7 @@ Requierement
 
 # How to Run
 - Clone this https://github.com/GunahD/Graphics-Editor-for-Wuwa-game.git
-- Use
+- Tyoe this in Terminal
 ```sh
 pyinstaller --onefile --windowed --add-data "appicon.ico;." --icon="appicon.ico" phoebeeditor.py
 ```
