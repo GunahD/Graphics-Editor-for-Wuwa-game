@@ -56,7 +56,7 @@ class IniEditorApp(QWidget):
 
         main_layout = QVBoxLayout()
 
-        # Layout untuk memilih file
+
         file_layout = QHBoxLayout()
         self.path_label = QLabel('File Location: Not Selected')
         self.select_button = QPushButton('Select File')
@@ -66,7 +66,7 @@ class IniEditorApp(QWidget):
         file_layout.addWidget(self.select_button)
         main_layout.addLayout(file_layout)
 
-        # Layout untuk memilih kunci dan input nilai
+        
         setting_layout = QHBoxLayout()
         self.key_label = QLabel('Select Settings:')
         self.setting_combo = QComboBox()
@@ -83,16 +83,16 @@ class IniEditorApp(QWidget):
         setting_layout.addWidget(self.value_input)
         main_layout.addLayout(setting_layout)
         
-        # Kotak info
+        
         self.info_box = QTextBrowser()
         self.info_box.setPlainText('See the description of the selected setting here.')
         main_layout.addWidget(self.info_box)
 
-        # Opsi Read-Only
+        
         self.readonly_checkbox = QCheckBox('Set the File to Read-only')
         main_layout.addWidget(self.readonly_checkbox)
 
-        # Tombol update
+        
         self.update_button = QPushButton('Update/Add Setting')
         self.update_button.clicked.connect(self.update_ini_file)
         main_layout.addWidget(self.update_button)
@@ -105,7 +105,7 @@ class IniEditorApp(QWidget):
         self.info_box.setPlainText(description)
 
     def select_ini_file(self):
-        # Menampilkan info lokasi sebelum membuka dialog file
+       
         info_text = "Default Location Of 'Engine.ini' For Wuthering Waves:\n\n"
         info_text += "Wuthering Waves\Wuthering Waves Game\Client\Saved\Config\WindowsNoEditor"
         QMessageBox.information(self, "File Location Info", info_text)
