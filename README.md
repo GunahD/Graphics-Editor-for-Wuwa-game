@@ -10,7 +10,7 @@ Do you want to contribute? Come its open source<br>
 # Main Feature
 - [ ] Detect game path Automatically
 - [x] Backup the Engine.ini setting
-- [x] Can Uncap 60 FPS
+- [ ] Can Uncap 60 FPS
 - [x] Can Modify game resolution
 - [x] Set Distance scale Object
 - [x] Disable/Enable shadow
