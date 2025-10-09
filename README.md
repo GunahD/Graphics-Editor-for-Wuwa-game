@@ -22,15 +22,4 @@ Do you want to contribute? Come its open source<br>
 - Run it (if needed run as administrator)
 - Tweak
 
-# Build From Source
-Requierement
-- python
-
-# How to Run
-- Clone this https://github.com/GunahD/Graphics-Editor-for-Wuwa-game.git
-- Type this in Terminal
-```sh
-pyinstaller --onefile --windowed --add-data "appicon.ico;." --icon="appicon.ico" phoebeeditor.py
-```
-
 oh yeah use it at own risk!
