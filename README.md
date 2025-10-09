@@ -9,8 +9,8 @@ Do you want to contribute? Come its open source<br>
 
 # Main Feature
 - [ ] Detect game path Automatically
-- [ ] Backup the Engine.ini setting
-- [x] Can Uncap 60 FPS
+- [x] Backup the Engine.ini setting
+- [ ] Can Uncap 60 FPS
 - [x] Can Modify game resolution
 - [x] Set Distance scale Object
 - [x] Disable/Enable shadow
@@ -21,16 +21,5 @@ Do you want to contribute? Come its open source<br>
 - Place in Somewhere
 - Run it (if needed run as administrator)
 - Tweak
-
-# Build From Source
-Requierement
-- python
-
-# How to Run
-- Clone this https://github.com/GunahD/Graphics-Editor-for-Wuwa-game.git
-- Type this in Terminal
-```sh
-pyinstaller --onefile --windowed --add-data "appicon.ico;." --icon="appicon.ico" phoebeeditor.py
-```
 
 oh yeah use it at own risk!
