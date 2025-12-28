@@ -1,11 +1,11 @@
 <div align="center">
-<img src="w.jpg" alt="w" width="200"/>
+<img src="F:\Project\guiEditEngine.ini\picture\lynae.png" alt="lynae" width="200"/>
 <h1>Simple Tool Graphics Editor for anime games</h1>
 </div>
 
 # Tweak Graphics
 With Simple GUI<br>
-Do you want to contribute? Come its open source<br>
+<br>
 
 # Main Feature
 - [x] Detect Engine.ini Automaticaly
@@ -19,7 +19,9 @@ Do you want to contribute? Come its open source<br>
 
 - Download from [Release](https://github.com/GunahD/Graphics-Editor-for-Wuwa-game/releases) tab
 - Place in your Wuthering Waves files 
+<img src ="F:\Project\guiEditEngine.ini\picture\Screenshot (270).png" alt="editorexe">
 - Run it (if needed run as administrator)
 - Tweak
+<img src ="F:\Project\guiEditEngine.ini\picture\Screenshot (271).png" alt="editorapp">
 
 oh yeah use it at own risk!
