@@ -19,9 +19,9 @@ With Simple GUI<br>
 
 - Download from [Release](https://github.com/GunahD/Graphics-Editor-for-Wuwa-game/releases) tab
 - Place in your Wuthering Waves files 
-<img src ="F:\Project\guiEditEngine.ini\picture\Screenshot (270).png" alt="editorexe">
+<img src ="picture/Screenshot (270).png" alt="editorexe">
 - Run it (if needed run as administrator)
 - Tweak
-<img src ="F:\Project\guiEditEngine.ini\picture\Screenshot (271).png" alt="editorapp">
+<img src ="picture/Screenshot (271).png" alt="editorapp">
 
 oh yeah use it at own risk!
