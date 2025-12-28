@@ -1,5 +1,5 @@
 <div align="center">
-<img src="F:\Project\guiEditEngine.ini\picture\lynae.png" alt="lynae" width="200"/>
+<img src="picture/lynae.png" alt="lynae" width="200"/>
 <h1>Simple Tool Graphics Editor for anime games</h1>
 </div>
 
