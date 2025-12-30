@@ -3,13 +3,22 @@ import os
 import stat
 import shutil
 import platform
-import pyi_splash
+try:
+    import pyi_splash
+    _PYI_SPLASH = pyi_splash
+except Exception:
+    _PYI_SPLASH = None
+    
 from PyQt5.QtWidgets import (QApplication, QWidget, QVBoxLayout, QHBoxLayout, 
                              QLabel, QPushButton, QFileDialog, QMessageBox, 
                              QCheckBox, QScrollArea, QFrame, QSlider, QSizePolicy)
 from PyQt5.QtCore import Qt, QSize
 from PyQt5.QtGui import QIcon, QFont
 
+def resource_path(relative_path):
+    if hasattr(sys, '_MEIPASS'):
+        return os.path.join(sys._MEIPASS, relative_path)
+    return os.path.join(os.path.abspath("."), relative_path)
 
 SETTINGS_CONFIG = {
     'r.SecondaryScreenPercentage.GameViewport': [10, 100, 1, 'This is a 3D render resolution'],
@@ -88,7 +97,8 @@ class ModernWavesEditor(QWidget):
 
     def initUI(self):
         self.setWindowTitle('Wuthering Waves Graphics Tweaker 0.8')
-        self.setWindowIcon(QIcon(r"F:\Project\guiEditEngine.ini\lynae.ico"))
+        icon_path = resource_path('picture/lynae.ico')
+        self.setWindowIcon(QIcon(resource_path('picture/lynae.ico')))
         self.resize(1000, 550)
         self.setStyleSheet(self._get_stylesheet())
 
