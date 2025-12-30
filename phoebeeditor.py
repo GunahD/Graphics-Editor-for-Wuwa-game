@@ -23,7 +23,7 @@ def resource_path(relative_path):
 SETTINGS_CONFIG = {
     'r.SecondaryScreenPercentage.GameViewport': [10, 100, 1, 'This is a 3D render resolution'],
     'r.PostProcessAAQuality': [0, 6, 1, 'Control the smoothness of jagged edges in the game visuals'],
-    'r.ShadowQuality': [0, 3, 1, 'Shadow Quality determines the realsim ,sharpness, and detail of shadows'],
+    'r.ShadowQuality': [0, 3, 1, 'Shadow Quality determines the realism ,sharpness, and detail of shadows'],
     'r.ViewDistanceScale': [1, 30, 10, 'Object View Distance Scale acts as a global multiplier for the maximum distance at which objects are rendered  '],
     'r.Shadow.MaxResolution': [64, 4096, 1, 'The Shadow Max resolution determines of sharpness of shadows'],
     'r.Shadow.CSM.MaxCascades': [0, 4, 1, 'Shadow Cascades improve the quality of shadows over distance '],
