@@ -19,8 +19,8 @@ So Close to User Friendly<br>
 
 - Download from [Release](https://github.com/GunahD/Graphics-Editor-for-Wuwa-game/releases) tab
 - Place in your Wuthering Waves files 
-<img src ="picture/Screenshot (270).png" alt="editorexe">
+<img src ="picture/editorexe.png" alt="editorexe">
 - Run it (if needed run as administrator) and tweak as you like :)
-<img src ="picture/Screenshot (271).png" alt="editorapp">
+<img src ="picture/editorapp.png" alt="editorapp">
 
 oh yeah use it at own risk!
